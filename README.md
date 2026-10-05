@@ -111,13 +111,14 @@ pie showData title Where I spend my learning time
 
 ## 🧊 3D Contribution Calendar
 
+## 🧊 3D Contribution Calendar
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/krunalsinhdev/krunalsinhdev/main/profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Calendar" width="100%" />
+  <img src="https://raw.githubusercontent.com/krunalsinhdev/Krunalsinhdev/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Calendar" />
+  <br/>
+  <img src="https://img.shields.io/badge/Updated-Daily-00D4FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Powered%20by-GitHub%20Actions-2088FF?style=for-the-badge&logo=github&logoColor=white" />
 </div>
-
-> Generated automatically every day by a GitHub Action (see `.github/workflows/profile-3d.yml`).
-
----
 
 ## 📊 GitHub Analytics Dashboard
 
