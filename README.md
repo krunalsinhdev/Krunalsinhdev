@@ -142,8 +142,6 @@ pie showData title Where I spend my learning time
 
 ## ⏱️ Coding Activity (WakaTime)
 
-## ⏱️ Coding Activity (WakaTime)
-
 <div align="center">
 
 <img height="200" src="https://github-readme-stats.vercel.app/api/wakatime?username=krunalsinhdev&theme=tokyonight&hide_border=true&bg_color=0D1117&layout=compact" alt="WakaTime Languages" />
