@@ -46,7 +46,7 @@ class Krunalsinh:
         self.currently  = "Building AI projects & growing my skills"
 
     def motto(self):
-        return "Learn. Build. Improve. Repeat. 🔁"
+        return "Learn. Build. Improve. Repeat."
 ```
 
 </td>
