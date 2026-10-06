@@ -109,7 +109,6 @@ pie showData title Where I spend my learning time
 
 ---
 
-## 🧊 3D Contribution Calendar
 
 ## 🧊 3D Contribution Calendar
 
