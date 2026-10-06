@@ -142,21 +142,19 @@ pie showData title Where I spend my learning time
 
 ## ⏱️ Coding Activity (WakaTime)
 
-> Create a free account at [wakatime.com](https://wakatime.com), install the plugin in VS Code, then make your profile public in *Settings → Profile → "Display coding activity publicly"*. Replace `YOUR-WAKATIME-USERNAME` below.
+## ⏱️ Coding Activity (WakaTime)
 
 <div align="center">
 
-<img height="200" src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR-WAKATIME-USERNAME&theme=tokyonight&hide_border=true&bg_color=0D1117&layout=compact" alt="WakaTime Languages" />
-<img src="https://wakatime.com/badge/user/YOUR-WAKATIME-ID.svg" alt="Total coding time" />
+<img height="200" src="https://github-readme-stats.vercel.app/api/wakatime?username=krunalsinhdev&theme=tokyonight&hide_border=true&bg_color=0D1117&layout=compact" alt="WakaTime Languages" />
 
 <br/>
 
 <img src="https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-<img src="https://img.shields.io/badge/OS-Windows%20%7C%20Linux-0F1620?style=for-the-badge&logo=linux&logoColor=white" />
+<img src="https://img.shields.io/badge/OS-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
 <img src="https://img.shields.io/badge/Most%20Used-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
 </div>
-
 ---
 
 ## 🚀 Featured Projects
