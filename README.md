@@ -144,13 +144,15 @@ pie showData title Where I spend my learning time
 
 <div align="center">
 
-<img height="200" src="https://github-readme-stats.vercel.app/api/wakatime?username=krunalsinhdev&theme=tokyonight&hide_border=true&bg_color=0D1117&layout=compact" alt="WakaTime Languages" />
+<img height="200"
+src="https://github-readme-stats.vercel.app/api/wakatime?username=650b830a-73a3-4592-896d-924226e6e05f&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+alt="WakaTime Coding Activity" />
 
-<br/>
+<br><br>
 
 <img src="https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 <img src="https://img.shields.io/badge/OS-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
-<img src="https://img.shields.io/badge/Most%20Used-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Primary%20Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
 </div>
 ---
