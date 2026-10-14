@@ -1,334 +1,333 @@
-<!-- ============ HEADER BANNER ============ -->
+<!-- ==================== HEADER ==================== -->
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Krunalsinh%20Dodiya&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=AIML%20Developer%20%7C%20CSE%20Student%20%7C%20Tech%20Enthusiast&descSize=20&descAlignY=60&animation=fadeIn" width="100%" alt="Header Banner" />
-
-<a href="https://github.com/krunalsinhdev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Krunalsinh+%F0%9F%91%8B;AIML+Developer+%F0%9F%A4%96;Computer+Science+Engineering+Student+%F0%9F%92%BB;Exploring+AI+%26+Machine+Learning+%F0%9F%9A%80;Turning+Data+into+Intelligent+Solutions+%E2%9A%A1" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=krunalsinhdev&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/krunalsinhdev?label=Followers&style=for-the-badge&logo=github&color=24292e" alt="Followers" />
-<img src="https://img.shields.io/github/stars/krunalsinhdev?label=Stars&style=for-the-badge&logo=github&color=e3b341" alt="Stars" />
-
-<br/><br/>
-
-<a href="mailto:krunalsinh.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/krunalsinhdev"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://www.kaggle.com/YOUR-KAGGLE-USERNAME"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
-<a href="https://instagram.com/YOUR-INSTAGRAM-USERNAME"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:020617,45:071B36,100:006A8E&amp;height=220&amp;section=header&amp;text=Krunalsinh%20Dodiya&amp;fontSize=52&amp;fontColor=F8FAFC&amp;fontAlignY=36&amp;desc=AI%2FML%20Developer%20%7C%20CSE%20Student%20%7C%20Tech%20Enthusiast&amp;descSize=18&amp;descAlignY=60&amp;animation=fadeIn"
+    width="100%"
+    alt="Krunalsinh Dodiya profile banner"
+  />
 </div>
 
-<br/>
-
----
-
-## 👨‍💻 About Me
-
+<!-- ==================== PROFILE AND INTRO ==================== -->
 <table>
-<tr>
-<td width="60%">
+  <tr>
+    <td width="27%" valign="top" align="center">
+      <img
+        src="https://github.com/krunalsinhdev.png?size=280"
+        width="160"
+        alt="Krunalsinh's GitHub avatar"
+      />
 
-```python
-class Krunalsinh:
-    def __init__(self):
-        self.name       = "Krunalsinh Dodiya"
-        self.role       = "AIML Developer"
-        self.education  = "B.E. Computer Science Engineering"
-        self.location   = "Gujarat, India 🇮🇳"
-        self.focus      = ["Machine Learning", "Deep Learning",
-                           "Computer Vision", "NLP"]
-        self.learning   = ["Generative AI", "LLMs", "MLOps"]
-        self.currently  = "Building AI projects & growing my skills"
+      <h2>Krunalsinh Dodiya</h2>
+      <p><code>@krunalsinhdev</code></p>
 
-    def motto(self):
-        return "Learn. Build. Improve. Repeat."
-```
+      <p>
+        <img
+          src="https://img.shields.io/badge/🟢%20Open%20to-Opportunities-063B5B?style=for-the-badge"
+          alt="Open to opportunities"
+        />
+      </p>
 
-</td>
-<td width="40%">
+      <p>
+        AI/ML Developer<br />
+        B.E. Computer Science Engineering<br />
+        Gujarat, India
+      </p>
 
-- 🔭 Currently working on **AI/ML projects**
-- 🌱 Learning **Deep Learning, LLMs & Generative AI**
-- 🤝 Open to **collaborations & internships**
-- 💬 Ask me about **Python, ML, Data Science**
-- ⚡ Fun fact: I turn coffee ☕ into code
+      <p>
+        <a href="mailto:krunalsinh.dev@gmail.com">
+          <img src="https://img.shields.io/badge/Email-Contact-0EA5E9?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" />
+        </a>
+        <br />
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
+          <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+        </a>
+        <br />
+        <a href="https://github.com/krunalsinhdev">
+          <img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
+        </a>
+      </p>
 
-</td>
-</tr>
+      <hr />
+
+      <p><strong>Navigation</strong></p>
+      <p>
+        <a href="#about-me">👤 About</a><br />
+        <a href="#tech-stack">⚙️ Tech Stack</a><br />
+        <a href="#featured-projects">📁 Projects</a><br />
+        <a href="#contributions">🧊 Contributions</a><br />
+        <a href="#github-stats">📊 GitHub Stats</a><br />
+        <a href="#certifications">🏅 Certifications</a><br />
+        <a href="#contact">✉️ Contact</a>
+      </p>
+
+      <hr />
+
+      <p><strong>Currently learning</strong></p>
+      <p>Generative AI · LLMs · MLOps</p>
+
+      <p><strong>Open to</strong></p>
+      <p>Internships · Collaborations · Open Source</p>
+
+      <hr />
+
+      <p><em>“Learn. Build. Improve. Repeat.”</em></p>
+    </td>
+
+    <td width="73%" valign="top">
+      <h2 id="about-me">👋 Hello, I'm Krunalsinh</h2>
+
+      <p>
+        I'm a Computer Science Engineering student from Gujarat, India,
+        passionate about Artificial Intelligence, Machine Learning, and
+        building real-world applications.
+      </p>
+
+      <p>
+        I enjoy learning new technologies, solving problems, and creating
+        useful projects with Python, data science, and AI.
+      </p>
+
+      <p>
+        <img src="https://img.shields.io/badge/Machine%20Learning-06B6D4?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="Machine Learning" />
+        <img src="https://img.shields.io/badge/Deep%20Learning-7C3AED?style=flat-square" alt="Deep Learning" />
+        <img src="https://img.shields.io/badge/Generative%20AI-DB2777?style=flat-square" alt="Generative AI" />
+        <img src="https://img.shields.io/badge/Computer%20Vision-0284C7?style=flat-square" alt="Computer Vision" />
+      </p>
+
+      <table>
+        <tr>
+          <td align="center"><strong>🎓 Education</strong><br />B.E. Computer Science Engineering</td>
+          <td align="center"><strong>📍 Location</strong><br />Gujarat, India</td>
+          <td align="center"><strong>🤖 Focus</strong><br />AI/ML & Data Science</td>
+        </tr>
+      </table>
+
+      <h3>✨ Areas of Interest</h3>
+      <p>
+        Machine Learning · Deep Learning · Computer Vision · Natural Language
+        Processing · Generative AI · LLMs · MLOps
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Stack
+<!-- ==================== TECH STACK ==================== -->
+<h2 id="tech-stack">⚙️ Tech Stack</h2>
 
-<div align="center">
-
-### 💻 Languages
-<img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,html,css&theme=dark" alt="Languages" />
-
-### 🤖 AI / ML / Data Science
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,numpy,pandas,jupyter&theme=dark" alt="AI ML" />
-
-### 🌐 Frameworks & Tools
-<img src="https://skillicons.dev/icons?i=flask,fastapi,streamlit,git,github,vscode,linux&theme=dark" alt="Tools" />
-
-### 🗄️ Databases & Cloud
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,aws,docker&theme=dark" alt="Databases" />
-
-</div>
-
-### 📐 Skill Proficiency
-
-```text
-Python            ████████████████░░░░  80%
-Machine Learning  ██████████████░░░░░░  70%
-Deep Learning     ████████████░░░░░░░░  60%
-Computer Vision   ███████████░░░░░░░░░  55%
-NLP               ██████████░░░░░░░░░░  50%
-Generative AI     ████████░░░░░░░░░░░░  40%
-MLOps             ██████░░░░░░░░░░░░░░  30%
-```
-
-### 🥧 My Focus Areas
-
-```mermaid
-%%{init: {'theme':'dark'}}%%
-pie showData title Where I spend my learning time
-    "Machine Learning" : 30
-    "Deep Learning" : 25
-    "Computer Vision" : 15
-    "NLP" : 15
-    "Generative AI" : 10
-    "MLOps" : 5
-```
-
----
-
-
-## 🧊 3D Contribution Calendar
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/krunalsinhdev/Krunalsinhdev/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Calendar" />
-  <br/>
-  <img src="https://img.shields.io/badge/Updated-Daily-00D4FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Powered%20by-GitHub%20Actions-2088FF?style=for-the-badge&logo=github&logoColor=white" />
-</div>
-
-## 📊 GitHub Analytics Dashboard
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=krunalsinhdev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117" alt="GitHub Stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krunalsinhdev&layout=donut&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0D1117" alt="Top Languages" />
-
-<br/>
-
-### 🔥 Contribution Streak
-
-<img src="https://streak-stats.demolab.com?user=krunalsinhdev&theme=tokyonight&hide_border=true&background=0D1117&ring=00D4FF&fire=FF6B35&currStreakLabel=00D4FF" alt="GitHub Streak" />
-
-### 📈 Activity Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=krunalsinhdev&theme=tokyo-night&hide_border=true&area=true&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF" alt="Activity Graph" width="100%" />
-
-</div>
-
----
-
-## ⏱️ Coding Activity (WakaTime)
-
-<div align="center">
-
-<img height="200"
-src="https://github-readme-stats.vercel.app/api/wakatime?username=650b830a-73a3-4592-896d-924226e6e05f&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
-alt="WakaTime Coding Activity" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-<img src="https://img.shields.io/badge/OS-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
-<img src="https://img.shields.io/badge/Primary%20Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-
-</div>
----
-
-## 🚀 Featured Projects
-
-> 💡 Replace `REPO-NAME` with your real repository names. Cards update automatically.
-
-<div align="center">
 <table>
-<tr>
-<td>
-<a href="https://github.com/krunalsinhdev/REPO-NAME-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&repo=REPO-NAME-1&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-</td>
-<td>
-<a href="https://github.com/krunalsinhdev/REPO-NAME-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&repo=REPO-NAME-2&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/krunalsinhdev/REPO-NAME-3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&repo=REPO-NAME-3&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-</td>
-<td>
-<a href="https://github.com/krunalsinhdev/REPO-NAME-4">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&repo=REPO-NAME-4&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 Languages</h3>
+      <img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,html,css&amp;theme=dark" alt="Programming languages" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 AI / ML / Data Science</h3>
+      <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,numpy,pandas,jupyter&amp;theme=dark" alt="AI and data science tools" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 Web & Frameworks</h3>
+      <img src="https://skillicons.dev/icons?i=flask,fastapi,streamlit&amp;theme=dark" alt="Web frameworks" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ Tools & Cloud</h3>
+      <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,aws,docker&amp;theme=dark" alt="Tools and cloud" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🗄️ Databases</h3>
+      <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite&amp;theme=dark" alt="Databases" />
+    </td>
+  </tr>
 </table>
-</div>
-
-### 🗂️ Project Details
-
-| Project | What it does | Tech | Links |
-|:--|:--|:--|:--|
-| 🤖 **Project One** | Short description of your ML / AI project and the problem it solves | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) | [Code](https://github.com/krunalsinhdev/REPO-NAME-1) · [Demo](#) |
-| 👁️ **Project Two** | Computer vision / image classification project | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | [Code](https://github.com/krunalsinhdev/REPO-NAME-2) · [Demo](#) |
-| 💬 **Project Three** | NLP / chatbot / sentiment analysis project | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) | [Code](https://github.com/krunalsinhdev/REPO-NAME-3) · [Demo](#) |
-| 📈 **Project Four** | Data analysis / dashboard with Streamlit | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) | [Code](https://github.com/krunalsinhdev/REPO-NAME-4) · [Demo](#) |
 
 ---
 
-## 🎓 Certifications & Achievements
+<!-- ==================== PROJECTS ==================== -->
+<h2 id="featured-projects">📁 Featured Projects</h2>
+
+<p>
+  Replace each <code>YOUR-REPO-NAME</code> with the matching repository name.
+  The project cards will then show your repository details.
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/krunalsinhdev/YOUR-REPO-NAME-1">
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&amp;repo=YOUR-REPO-NAME-1&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117"
+          width="100%"
+          alt="AI Chatbot project card"
+        />
+      </a>
+      <p><strong>🤖 AI Chatbot (RAG)</strong><br />
+      Document-based chatbot using LLMs and vector search.</p>
+      <p>Python · FastAPI · OpenAI</p>
+    </td>
+
+    <td width="50%" valign="top">
+      <a href="https://github.com/krunalsinhdev/YOUR-REPO-NAME-2">
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&amp;repo=YOUR-REPO-NAME-2&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117"
+          width="100%"
+          alt="Disease prediction project card"
+        />
+      </a>
+      <p><strong>💗 Disease Prediction System</strong><br />
+      Machine learning project for health risk prediction.</p>
+      <p>Python · Scikit-learn · Streamlit</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/krunalsinhdev/YOUR-REPO-NAME-3">
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&amp;repo=YOUR-REPO-NAME-3&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117"
+          width="100%"
+          alt="Portfolio website project card"
+        />
+      </a>
+      <p><strong>🌐 Portfolio Website</strong><br />
+      Personal portfolio showcasing projects and skills.</p>
+      <p>HTML · CSS · JavaScript</p>
+    </td>
+
+    <td width="50%" valign="top">
+      <a href="https://github.com/krunalsinhdev/YOUR-REPO-NAME-4">
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=krunalsinhdev&amp;repo=YOUR-REPO-NAME-4&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117"
+          width="100%"
+          alt="Library management project card"
+        />
+      </a>
+      <p><strong>📚 Library Management System</strong><br />
+      Application for managing library records.</p>
+      <p>Python · MySQL · Flask</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- ==================== CONTRIBUTIONS ==================== -->
+<h2 id="contributions">🧊 3D Contribution Calendar</h2>
+
+<p>Generated by the GitHub Actions workflow below.</p>
 
 <div align="center">
+  <img
+    src="./profile-3d-contrib/profile-night-rainbow.svg"
+    width="100%"
+    alt="3D GitHub contribution calendar"
+  />
+</div>
+
+---
+
+<!-- ==================== GITHUB STATS ==================== -->
+<h2 id="github-stats">📊 GitHub Stats</h2>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=krunalsinhdev&amp;show_icons=true&amp;include_all_commits=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=22D3EE&amp;icon_color=22D3EE"
+        width="100%"
+        alt="Krunalsinh's GitHub statistics"
+      />
+    </td>
+    <td width="50%" align="center">
+      <img
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=krunalsinhdev&amp;layout=donut&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0D1117&amp;title_color=22D3EE"
+        width="100%"
+        alt="Krunalsinh's top languages"
+      />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <h3>🔥 Contribution Streak</h3>
+  <img
+    src="https://streak-stats.demolab.com?user=krunalsinhdev&amp;theme=tokyonight&amp;hide_border=true&amp;background=0D1117&amp;ring=00D4FF&amp;fire=FF6B35&amp;currStreakLabel=00D4FF"
+    width="75%"
+    alt="GitHub contribution streak"
+  />
+</div>
+
+<div align="center">
+  <h3>📈 Contribution Graph</h3>
+  <a href="https://github.com/krunalsinhdev">
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=krunalsinhdev&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true&amp;bg_color=0D1117&amp;color=00D4FF&amp;line=00D4FF&amp;point=FFFFFF"
+      width="100%"
+      alt="GitHub activity graph"
+    />
+  </a>
+</div>
+
+<!-- ==================== CODING ACTIVITY ==================== -->
+<details>
+  <summary><strong>⏱️ Coding Activity (WakaTime)</strong></summary>
+  <br />
+  <div align="center">
+    <img
+      src="https://github-readme-stats.vercel.app/api/wakatime?username=650b830a-73a3-4592-896d-924226e6e05f&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=8"
+      width="70%"
+      alt="WakaTime coding activity"
+    />
+  </div>
+</details>
+
+---
+
+<!-- ==================== CERTIFICATIONS ==================== -->
+<h2 id="certifications">🏅 Certifications & Achievements</h2>
 
 | Certification | Issuer | Year | Credential |
 |:--|:--|:-:|:-:|
-| 🧠 Machine Learning Specialization | Coursera · DeepLearning.AI | 2025 | [View](#) |
-| 🐍 Python for Data Science | IBM / NPTEL | 2025 | [View](#) |
-| ☁️ Cloud Practitioner Essentials | AWS | 2026 | [View](#) |
-| 🤖 Generative AI Fundamentals | Google Cloud | 2026 | [View](#) |
-
-<br/>
-
-<img src="https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=coursera&logoColor=white" />
-<img src="https://img.shields.io/badge/Kaggle%20Learn-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-<img src="https://img.shields.io/badge/NPTEL-FF6F00?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-
-</div>
-
-> ✏️ Edit the table with your real certificates and add the credential links.
+| 🧠 Machine Learning Specialization | Coursera / DeepLearning.AI | 2025 | [View](YOUR-CERTIFICATE-LINK-1) |
+| 🐍 Python for Data Science | IBM / NPTEL | 2025 | [View](YOUR-CERTIFICATE-LINK-2) |
+| ☁️ Cloud Practitioner Essentials | AWS | 2026 | [View](YOUR-CERTIFICATE-LINK-3) |
+| 🤖 Generative AI Fundamentals | Google Cloud | 2026 | [View](YOUR-CERTIFICATE-LINK-4) |
 
 ---
 
-## 🏆 GitHub Trophies
+<!-- ==================== CONTACT ==================== -->
+<h2 id="contact">✉️ Contact</h2>
+
+<p>
+  I'm open to collaborations, internships, and learning opportunities.
+  Feel free to reach out.
+</p>
+
+<p>
+  <a href="mailto:krunalsinh.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-krunalsinh.dev%40gmail.com-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Krunalsinh" />
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.kaggle.com/YOUR-KAGGLE-USERNAME">
+    <img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&amp;logo=kaggle&amp;logoColor=white" alt="Kaggle" />
+  </a>
+  <a href="https://instagram.com/YOUR-INSTAGRAM-USERNAME">
+    <img src="https://img.shields.io/badge/Instagram-Profile-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" />
+  </a>
+</p>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=krunalsinhdev&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=7" alt="Trophies" />
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krunalsinhdev/krunalsinhdev/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krunalsinhdev/krunalsinhdev/output/github-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/krunalsinhdev/krunalsinhdev/output/github-snake.svg" />
-  </picture>
-</div>
-
----
-
-## 📂 More About Me (click to expand)
-
-<details>
-<summary><b>🎯 Goals for 2026</b></summary>
-<br/>
-
-- [x] Create my GitHub profile 🎉
-- [ ] Build **5+ AI/ML projects** and publish them
-- [ ] Learn **Generative AI & LLM fine-tuning**
-- [ ] Participate in **Kaggle competitions**
-- [ ] Contribute to **open-source projects**
-- [ ] Land an **AI/ML internship**
-
-</details>
-
-<details>
-<summary><b>📚 Learning Roadmap</b></summary>
-<br/>
-
-```mermaid
-graph LR
-    A[Python] --> B[Data Analysis]
-    B --> C[Machine Learning]
-    C --> D[Deep Learning]
-    D --> E[NLP & Computer Vision]
-    E --> F[Generative AI & LLMs]
-    F --> G[MLOps & Deployment]
-```
-
-</details>
-
-<details>
-<summary><b>🎓 Education</b></summary>
-<br/>
-
-**B.E. in Computer Science Engineering** (AI & ML focus)
-📍 Gujarat, India · 🗓️ 2023 – 2027 *(edit with your details)*
-
-</details>
-
-<details>
-<summary><b>📖 Currently Reading / Learning</b></summary>
-<br/>
-
-- Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow
-- Deep Learning Specialization
-- Hugging Face course (LLMs & Transformers)
-
-</details>
-
-<details>
-<summary><b>🧰 Dev Setup</b></summary>
-<br/>
-
-- 💻 Editor: VS Code
-- 🐍 Python 3.x, Jupyter, Anaconda
-- 🐧 OS: Windows / Linux
-- 🔧 Tools: Git, Docker, Postman
-
-</details>
-
----
-
-## 💬 Quote of the Day
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-I'm always open to **collaborations, internships, and learning opportunities**.
-Feel free to reach out. Let's build something amazing together! 🚀
-
-📧 **krunalsinh.dev@gmail.com**
-
-<br/>
-
-⭐ *If you like my profile, consider giving a star to my repositories!* ⭐
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="Footer" />
-
+  <br />
+  <em>“A small progress every day adds up to big results.”</em>
+  <br /><br />
+  <img
+    src="https://komarev.com/ghpvc/?username=krunalsinhdev&amp;label=Profile%20Views&amp;color=0e75b6&amp;style=for-the-badge"
+    alt="Profile views"
+  />
 </div>
