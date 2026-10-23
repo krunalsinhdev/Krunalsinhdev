@@ -113,8 +113,7 @@ pie showData title Where I spend my learning time
 ## 🧊 3D Contribution Calendar
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/krunalsinhdev/Krunalsinhdev/main/profile-3d-contrib/neon-3d-contrib.svg" width="100%" alt="3D Contribution Calendar" />
-  <br/>
+  <img src="https://raw.githubusercontent.com/krunalsinhdev/Krunalsinhdev/main/profile-3d-contrib/neon-3d-contrib.svg?v=2" width="100%" alt="3D Contribution Calendar" />
   <img src="https://img.shields.io/badge/Updated-Daily-00D4FF?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Powered%20by-GitHub%20Actions-2088FF?style=for-the-badge&logo=github&logoColor=white" />
 </div>
