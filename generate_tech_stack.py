@@ -175,7 +175,7 @@ for ri, r in enumerate(ROWS):
     o.append(f'<rect class="ch" pathLength="1000" x="28" y="{ry}" width="1480" height="{RH}" rx="34" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".9" filter="url(#bl2)"/>')
     # side icon tile
     o.append(f'<rect x="56" y="{ry+36}" width="76" height="76" rx="18" fill="{c1}" fill-opacity=".22" stroke="{c1}" stroke-opacity=".5"/>')
-    o.append(f'<g class="pp" style="animation-delay:-{ri*.5}s" transform="translate(94,{ry+74})">{side_icon(r["kind"], c1, c2, f"si{ri}")}</g>')
+    o.append(f'<g transform="translate(94,{ry+74})"><g class="pp" style="animation-delay:-{ri*.5}s">{side_icon(r["kind"], c1, c2, f"si{ri}")}</g></g>')
     ts = r.get("tsize", 36)
     base = ry + (60 if len(r["title"]) == 2 else 72)
     for li, line in enumerate(r["title"]):
