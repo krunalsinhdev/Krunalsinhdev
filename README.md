@@ -67,7 +67,7 @@ class Krunalsinh:
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/krunalsinhdev/Krunalsinhdev/main/neon-tech-stack.svg?v=1" width="100%" alt="Tech Stack" />
+  <img src="https://raw.githubusercontent.com/krunalsinhdev/Krunalsinhdev/main/neon-tech-stack.svg?v=2" width="100%" alt="Tech Stack" />
 </p>
 
 ### 📐 Skill Proficiency
