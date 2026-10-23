@@ -151,14 +151,30 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 .h1{font-size:46px;font-weight:700}.sub{font-size:22px;fill:#8d93c4}
 .h2{font-size:24px;font-weight:700}.big{font-size:36px;font-weight:700}
 .sm{font-size:15px;fill:#aab0dd}.ax{font-size:15px;fill:#c9cdf0}.tag{font-size:19px;font-weight:600;fill:#e879f9}
+@keyframes wave{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.wk{animation:wave 4.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.12}50%{opacity:.6}}
+.pl{animation:pulse 2s ease-in-out infinite}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.gr{transform-box:fill-box;transform-origin:50% 100%;animation:grow 1.3s cubic-bezier(.2,.8,.2,1) both}
+@keyframes draw{from{stroke-dasharray:0 var(--c)}}
+.dn{animation:draw 1.8s ease-out both}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.fl{animation:float 3s ease-in-out infinite}
+@keyframes rp{0%,100%{opacity:.4}50%{opacity:.9}}
+.rd{animation:rp 2.6s ease-in-out infinite}
+@keyframes hue{to{filter:hue-rotate(360deg)}}
+.bd{animation:hue 8s linear infinite}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.fi{animation:fade 1.2s ease-out both}
 </style></defs>""")
     o.append(f'<rect width="{W}" height="{H}" rx="34" fill="url(#bg)"/>')
-    o.append(f'<rect x="3" y="3" width="{W-6}" height="{H-6}" rx="32" fill="none" stroke="url(#bd)" stroke-width="3"/>')
+    o.append(f'<rect class="bd" x="3" y="3" width="{W-6}" height="{H-6}" rx="32" fill="none" stroke="url(#bd)" stroke-width="3"/>')
 
     # header
-    o.append('<g transform="translate(42,26)"><polygon points="35,0 70,18 70,56 35,74 0,56 0,18" fill="url(#cube)"/>'
+    o.append('<g transform="translate(42,26)"><g class="fl"><polygon points="35,0 70,18 70,56 35,74 0,56 0,18" fill="url(#cube)"/>'
              '<polygon points="35,0 70,18 35,36 0,18" fill="#67e8f9" opacity=".85"/>'
-             '<polygon points="35,36 70,18 70,56 35,74" fill="#6d28d9" opacity=".9"/></g>')
+             '<polygon points="35,36 70,18 70,56 35,74" fill="#6d28d9" opacity=".9"/></g></g>')
     o.append('<text x="134" y="66" class="h1"><tspan fill="#8b7cff">3D</tspan> Contribution Calendar</text>')
     o.append('<text x="134" y="98" class="sub">My GitHub activity over time in 3D</text>')
     o.append(f'<rect x="1010" y="38" width="286" height="54" rx="14" fill="#13154a" stroke="#3b3fa8"/>'
@@ -178,6 +194,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
     glow_cells = []
     for i, wk in enumerate(weeks):
         hue = 285 - (i / max(n - 1, 1)) * 285          # purple -> blue -> green -> yellow -> red
+        o.append(f'<g class="wk" style="animation-delay:-{(n - i) * 0.085:.3f}s">')
         for dt, c, wd in wk:
             if c > 0:
                 h = 7 + min(c, 20) * 3.2
@@ -187,14 +204,15 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
                 h = 3
                 top, left, right = hsl(hue, .9, .55), hsl(hue, .9, .38), hsl(hue, .9, .28)
             o.append(cell(i, wd, h, top, left, right))
+        o.append('</g>')
     for gx, gy in glow_cells[-12:]:
-        o.append(f'<circle cx="{gx:.1f}" cy="{gy:.1f}" r="16" fill="#e879f9" opacity=".25" filter="url(#glow)"/>')
+        o.append(f'<circle class="pl" opacity=".25" cx="{gx:.1f}" cy="{gy:.1f}" r="16" fill="#e879f9" filter="url(#glow)"/>')
     # month tags
     for lbl, (px, py), tx, ty in ((f"{first:%b %Y}", P(.4, .4), 98, 160), (f"{last:%b %Y}", P(n - .5, 6.5), 1125, 545)):
         o.append(f'<rect x="{tx}" y="{ty}" width="104" height="38" rx="11" fill="#1a0b3d" stroke="#c026d3" stroke-width="1.6"/>'
                  f'<text x="{tx+52}" y="{ty+26}" text-anchor="middle" class="tag">{lbl}</text>'
                  f'<line x1="{tx+52 if ty<300 else tx+30}" y1="{ty+38}" x2="{px:.0f}" y2="{py-4:.0f}" stroke="#e879f9" stroke-width="2"/>'
-                 f'<circle cx="{px:.0f}" cy="{py-4:.0f}" r="5" fill="#f0abfc" filter="url(#glow2)"/>')
+                 f'<circle class="pl" opacity=".8" style="animation-duration:1.5s" cx="{px:.0f}" cy="{py-4:.0f}" r="5" fill="#f0abfc" filter="url(#glow2)"/>')
 
     # ---- stat cards
     pct = ((d["total"] - d["prev"]) / d["prev"] * 100) if d["prev"] else 0
@@ -239,7 +257,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
     for v, a in zip(d["radar"], ang):
         r = max(math.log10(max(v, 1)) / 4, .08) * R
         vp.append((cx + r * math.cos(math.radians(a)), cy + r * math.sin(math.radians(a))))
-    o.append(f'<polygon points="{pts(vp)}" fill="#0ea5e9" fill-opacity=".55" stroke="#38bdf8" stroke-width="2.5" filter="url(#glow2)"/>')
+    o.append(f'<polygon class="rd" points="{pts(vp)}" fill="#0ea5e9" fill-opacity=".55" stroke="#38bdf8" stroke-width="2.5" filter="url(#glow2)"/>')
     for x, y in vp:
         o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="#7dd3fc"/>')
     lp = [(cx, cy - R - 28, "middle"), (cx + R * .95 + 14, cy - 28, "start"), (cx + R * .6 + 6, cy + R * .81 + 30, "middle"),
@@ -262,7 +280,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
     off = 0
     o.append(f'<circle cx="{dcx}" cy="{dcy}" r="{dr}" fill="none" stroke="#12143a" stroke-width="38"/>')
     for k, f, c in items:
-        o.append(f'<circle cx="{dcx}" cy="{dcy}" r="{dr}" fill="none" stroke="{c}" stroke-width="38" '
+        o.append(f'<circle class="dn" style="--c:{circ:.2f}" cx="{dcx}" cy="{dcy}" r="{dr}" fill="none" stroke="{c}" stroke-width="38" '
                  f'stroke-dasharray="{circ*f:.2f} {circ:.2f}" stroke-dashoffset="{-off:.2f}" transform="rotate(-90 {dcx} {dcy})"/>')
         off += circ * f
     o.append(f'<text x="{dcx}" y="{dcy+4}" text-anchor="middle" font-size="30" font-weight="700">{d["total"]}</text>'
@@ -295,7 +313,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
     for q, k in enumerate(months):
         x = 534 + q * step + step / 2
         hh = max(cnt[k] / top_v * ph, 2)
-        o.append(f'<rect x="{x-13:.1f}" y="{base-hh:.1f}" width="26" height="{hh:.1f}" fill="url(#barg)"/>'
+        o.append(f'<rect class="gr" style="animation-delay:{q*0.07:.2f}s" x="{x-13:.1f}" y="{base-hh:.1f}" width="26" height="{hh:.1f}" fill="url(#barg)"/>'
                  f'<text x="{x:.1f}" y="{base+24}" text-anchor="middle" class="ax">{datetime(k[0], k[1], 1):%b}</text>')
 
     # ---- level legend
@@ -303,8 +321,8 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
     lv = [("0", "#3a3f4d", 3), ("1-9", "#2563eb", 10), ("10-49", "#22c55e", 28), ("50-99", "#facc15", 46),
           ("100-499", "#f97316", 66), ("500+", "#ff2d75", 100)]
     xs = [1286, 1344, 1401, 1459, 1520, 1585]
-    for (lab, col, h), x in zip(lv, xs):
-        o.append(box(x, 786, 40, h, col) + f'<text x="{x}" y="826" text-anchor="middle" font-size="15" fill="#e8eaff">{lab}</text>')
+    for q, ((lab, col, h), x) in enumerate(zip(lv, xs)):
+        o.append(f'<g class="fl" style="animation-delay:-{q*0.5}s">' + box(x, 786, 40, h, col) + '</g>' + f'<text x="{x}" y="826" text-anchor="middle" font-size="15" fill="#e8eaff">{lab}</text>')
 
     o.append("</svg>")
     return "\n".join(o)
