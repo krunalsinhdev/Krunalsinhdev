@@ -66,21 +66,9 @@ class Krunalsinh:
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-### 💻 Languages
-<img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,html,css&theme=dark" alt="Languages" />
-
-### 🤖 AI / ML / Data Science
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,numpy,pandas,jupyter&theme=dark" alt="AI ML" />
-
-### 🌐 Frameworks & Tools
-<img src="https://skillicons.dev/icons?i=flask,fastapi,streamlit,git,github,vscode,linux&theme=dark" alt="Tools" />
-
-### 🗄️ Databases & Cloud
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,aws,docker&theme=dark" alt="Databases" />
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/krunalsinhdev/Krunalsinhdev/main/neon-tech-stack.svg?v=1" width="100%" alt="Tech Stack" />
+</p>
 
 ### 📐 Skill Proficiency
 
