@@ -506,7 +506,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 <polygon points="1103.8,542.5 1121.0,547.6 1121.0,537.4 1103.8,532.3" fill="#c026d3"/><polygon points="1127.2,539.7 1121.0,547.6 1121.0,537.4 1127.2,529.5" fill="#86198f"/><polygon points="1110.0,524.4 1127.2,529.5 1121.0,537.4 1103.8,532.3" fill="#f0abfc"/>
 <polygon points="1096.8,551.5 1114.0,556.6 1114.0,540.0 1096.8,534.9" fill="#c026d3"/><polygon points="1120.2,548.7 1114.0,556.6 1114.0,540.0 1120.2,532.1" fill="#86198f"/><polygon points="1103.0,527.0 1120.2,532.1 1114.0,540.0 1096.8,534.9" fill="#f0abfc"/>
 <polygon points="1089.8,560.5 1107.0,565.6 1107.0,562.6 1089.8,557.5" fill="#b80909"/><polygon points="1113.2,557.7 1107.0,565.6 1107.0,562.6 1113.2,554.7" fill="#870707"/><polygon points="1096.0,549.6 1113.2,554.7 1107.0,562.6 1089.8,557.5" fill="#f32424"/>
-<polygon points="1082.8,569.5 1100.0,574.6 1100.0,554.8 1082.8,549.7" fill="#c026d3"/><polygon points="1106.2,566.7 1100.0,574.6 1100.0,554.8 1106.2,546.9" fill="#86198f"/><polygon points="1089.0,541.8 1106.2,546.9 1100.0,554.8 1082.8,549.7" fill="#f0abfc"/>
+<polygon points="1082.8,569.5 1100.0,574.6 1100.0,551.6 1082.8,546.5" fill="#c026d3"/><polygon points="1106.2,566.7 1100.0,574.6 1100.0,551.6 1106.2,543.7" fill="#86198f"/><polygon points="1089.0,538.6 1106.2,543.7 1100.0,551.6 1082.8,546.5" fill="#f0abfc"/>
 </g>
 <circle class="pl" opacity=".25" cx="1076.6" cy="529.7" r="16" fill="#e879f9" filter="url(#glow)"/>
 <circle class="pl" opacity=".25" cx="1062.6" cy="547.7" r="16" fill="#e879f9" filter="url(#glow)"/>
@@ -524,7 +524,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 <rect x="1125" y="545" width="104" height="38" rx="11" fill="#1a0b3d" stroke="#c026d3" stroke-width="1.6"/><text x="1177" y="571" text-anchor="middle" class="tag">Oct 2026</text><line x1="1155" y1="583" x2="1088" y2="574" stroke="#e879f9" stroke-width="2"/><circle class="pl" opacity=".8" style="animation-duration:1.5s" cx="1088" cy="574" r="5" fill="#f0abfc" filter="url(#glow2)"/>
 <rect x="532" y="138" width="227" height="168" rx="12" fill="#0a2a24" fill-opacity=".85" stroke="#10b981" stroke-width="1.6"/>
 <g stroke="#10b981" stroke-width="4" fill="none"><circle cx="562" cy="184" r="6"/><circle cx="562" cy="210" r="6"/><circle cx="586" cy="190" r="6"/><path d="M562 190V204M586 196C586 206 562 200 562 204"/></g>
-<text x="614" y="198" class="big">41</text><text x="618" y="226" class="sm" font-size="16" fill="#cfd3f5">Total Contributions</text>
+<text x="614" y="198" class="big">42</text><text x="618" y="226" class="sm" font-size="16" fill="#cfd3f5">Total Contributions</text>
 <text x="584" y="266" font-size="20" font-weight="700" fill="#22c55e">^ +0%</text><text x="584" y="288" class="sm">from last period</text>
 <rect x="777" y="138" width="209" height="168" rx="12" fill="#2a1c0b" fill-opacity=".85" stroke="#f59e0b" stroke-width="1.6"/>
 <polygon points="807,168 814,183 831,185 818,196 822,213 807,204 792,213 796,196 783,185 800,183" fill="none" stroke="#f59e0b" stroke-width="3.5" stroke-linejoin="round"/>
@@ -548,8 +548,8 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 <text x="1447" y="280" font-size="12" fill="#8d93c4">1K</text>
 <text x="1447" y="310" font-size="12" fill="#8d93c4">100</text>
 <text x="1447" y="339" font-size="12" fill="#8d93c4">10</text>
-<polygon class="rd" points="1443.0,319.1 1452.1,362.1 1448.6,372.7 1437.4,372.7 1423.2,358.6" fill="#0ea5e9" fill-opacity=".55" stroke="#38bdf8" stroke-width="2.5" filter="url(#glow2)"/>
-<circle cx="1443.0" cy="319.1" r="4" fill="#7dd3fc"/>
+<polygon class="rd" points="1443.0,318.7 1452.1,362.1 1448.6,372.7 1437.4,372.7 1423.2,358.6" fill="#0ea5e9" fill-opacity=".55" stroke="#38bdf8" stroke-width="2.5" filter="url(#glow2)"/>
+<circle cx="1443.0" cy="318.7" r="4" fill="#7dd3fc"/>
 <circle cx="1452.1" cy="362.1" r="4" fill="#7dd3fc"/>
 <circle cx="1448.6" cy="372.7" r="4" fill="#7dd3fc"/>
 <circle cx="1437.4" cy="372.7" r="4" fill="#7dd3fc"/>
@@ -562,7 +562,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 <rect x="40" y="595" width="422" height="295" rx="14" fill="#080a22" fill-opacity=".72" stroke="#2a2f6b" stroke-width="1.5"/><text x="64" y="637" class="h2">Languages Used</text>
 <circle cx="169" cy="762" r="80" fill="none" stroke="#12143a" stroke-width="38"/>
 <circle class="dn" style="--c:502.65" cx="169" cy="762" r="80" fill="none" stroke="#3572A5" stroke-width="38" stroke-dasharray="502.65 502.65" stroke-dashoffset="0.00" transform="rotate(-90 169 762)"/>
-<text x="169" y="766" text-anchor="middle" font-size="30" font-weight="700">41</text><text x="169" y="788" text-anchor="middle" font-size="15">Contributions</text>
+<text x="169" y="766" text-anchor="middle" font-size="30" font-weight="700">42</text><text x="169" y="788" text-anchor="middle" font-size="15">Contributions</text>
 <circle cx="295" cy="730" r="6" fill="#3572A5"/><text x="308" y="735" font-size="15">Python</text><text x="434" y="735" text-anchor="end" font-size="15" fill="#c9cdf0">100%</text>
 <rect x="484" y="614" width="730" height="275" rx="14" fill="#080a22" fill-opacity=".72" stroke="#2a2f6b" stroke-width="1.5"/><text x="508" y="656" class="h2">Contributions per Month</text>
 <line x1="534" y1="838.0" x2="1190" y2="838.0" stroke="#222760" stroke-dasharray="3 5"/><text x="523" y="843.0" text-anchor="end" class="ax">0</text>
@@ -582,7 +582,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 <rect class="gr" style="animation-delay:0.63s" x="1000.4" y="836.0" width="26" height="2.0" fill="url(#barg)"/><text x="1013.4" y="862" text-anchor="middle" class="ax">Jul</text>
 <rect class="gr" style="animation-delay:0.70s" x="1050.8" y="836.0" width="26" height="2.0" fill="url(#barg)"/><text x="1063.8" y="862" text-anchor="middle" class="ax">Aug</text>
 <rect class="gr" style="animation-delay:0.77s" x="1101.3" y="836.0" width="26" height="2.0" fill="url(#barg)"/><text x="1114.3" y="862" text-anchor="middle" class="ax">Sep</text>
-<rect class="gr" style="animation-delay:0.84s" x="1151.8" y="710.4" width="26" height="127.6" fill="url(#barg)"/><text x="1164.8" y="862" text-anchor="middle" class="ax">Oct</text>
+<rect class="gr" style="animation-delay:0.84s" x="1151.8" y="707.3" width="26" height="130.7" fill="url(#barg)"/><text x="1164.8" y="862" text-anchor="middle" class="ax">Oct</text>
 <rect x="1237" y="626" width="404" height="260" rx="14" fill="#080a22" fill-opacity=".72" stroke="#2a2f6b" stroke-width="1.5"/><text x="1261" y="668" class="h2">Contribution Level</text>
 <g class="fl" style="animation-delay:-0.0s"><polygon points="1266.0,783.0 1286.0,793.0 1286.0,796.0 1266.0,786.0" fill="#23272f"/><polygon points="1306.0,783.0 1286.0,793.0 1286.0,796.0 1306.0,786.0" fill="#181a20"/><polygon points="1286.0,773.0 1306.0,783.0 1286.0,793.0 1266.0,783.0" fill="#3a3f4d"/></g><text x="1286" y="826" text-anchor="middle" font-size="15" fill="#e8eaff">0</text>
 <g class="fl" style="animation-delay:-0.5s"><polygon points="1324.0,776.0 1344.0,786.0 1344.0,796.0 1324.0,786.0" fill="#163d91"/><polygon points="1364.0,776.0 1344.0,786.0 1344.0,796.0 1364.0,786.0" fill="#0f2962"/><polygon points="1344.0,766.0 1364.0,776.0 1344.0,786.0 1324.0,776.0" fill="#2563eb"/></g><text x="1344" y="826" text-anchor="middle" font-size="15" fill="#e8eaff">1-9</text>
