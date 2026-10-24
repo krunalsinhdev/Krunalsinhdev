@@ -83,19 +83,9 @@ MLOps             ██████░░░░░░░░░░░░░░  
 ```
 
 ### 🥧 My Focus Areas
-
-```mermaid
-%%{init: {'theme':'dark'}}%%
-pie showData title Where I spend my learning time
-    "Machine Learning" : 30
-    "Deep Learning" : 25
-    "Computer Vision" : 15
-    "NLP" : 15
-    "Generative AI" : 10
-    "MLOps" : 5
-```
-
----
+<p align="center">
+  <img src="./focus-areas.svg" alt="My Focus Areas" width="100%"/>
+</p>
 
 
 ## 🧊 3D Contribution Calendar
