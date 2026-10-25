@@ -1,6 +1,6 @@
 # generate_focus_areas.py
-# Creates focus-areas.svg (animated 3D neon chart) for the GitHub profile README.
-# Edit the `items` list below to change topics, percentages, colors, icons or text.
+# Creates focus-areas.svg (animated 3D neon chart) for the GitHub profile README
+# Edit the `items` list below to change topics, percentages, colors, icons or text
 import math, random
 ANIM = True  # set False for a static (non-animated) image
 def mix(h,t,w):
