@@ -1,5 +1,5 @@
 """Neon animated Tech Stack -> SVG. Edit the ROWS list below to change technologies.
-Icons are downloaded from the devicon project  when this runs."""
+Icons are downloaded from the devicon project  when this runs ."""
 import re, math, random, sys, urllib.request
 D = "https://raw.githubusercontent.com/devicons/devicon/master/icons"
 W, H = 1536, 1024
