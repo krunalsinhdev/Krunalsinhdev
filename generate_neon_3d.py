@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Neon 3D GitHub contribution dashboard -> SVG (stdlib only).
+"""Neon 3D GitHub contribution dashboard -> SVG (stdlib only) NA.
 
 Usage:
   GH_TOKEN=xxx GH_LOGIN=yourname python generate_neon_3d.py [out.svg]
