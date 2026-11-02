@@ -33,12 +33,11 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 <g transform="translate(42,26)"><g class="fl"><polygon points="35,0 70,18 70,56 35,74 0,56 0,18" fill="url(#cube)"/><polygon points="35,0 70,18 35,36 0,18" fill="#67e8f9" opacity=".85"/><polygon points="35,36 70,18 70,56 35,74" fill="#6d28d9" opacity=".9"/></g></g>
 <text x="134" y="66" class="h1"><tspan fill="#8b7cff">3D</tspan> Contribution Calendar</text>
 <text x="134" y="98" class="sub">My GitHub activity over time in 3D</text>
-<rect x="1010" y="38" width="286" height="54" rx="14" fill="#13154a" stroke="#3b3fa8"/><text x="1067" y="72" font-size="18" font-weight="600">2025-11-02 → 2026-11-01</text><rect x="1031" y="56" width="22" height="20" rx="3" fill="none" stroke="#c9cdf0" stroke-width="2"/><rect x="1324" y="38" width="306" height="54" rx="14" fill="#0e1038" stroke="#2c3180"/><rect x="1327" y="42" width="96" height="46" rx="12" fill="#2563eb"/><text x="1354" y="72" font-size="19" font-weight="600">Daily</text><text x="1445" y="72" font-size="19" class="sm" fill="#aab0dd">Weekly</text><text x="1545" y="72" font-size="19" class="sm" fill="#aab0dd">Monthly</text>
+<rect x="1010" y="38" width="286" height="54" rx="14" fill="#13154a" stroke="#3b3fa8"/><text x="1067" y="72" font-size="18" font-weight="600">2025-11-03 → 2026-11-02</text><rect x="1031" y="56" width="22" height="20" rx="3" fill="none" stroke="#c9cdf0" stroke-width="2"/><rect x="1324" y="38" width="306" height="54" rx="14" fill="#0e1038" stroke="#2c3180"/><rect x="1327" y="42" width="96" height="46" rx="12" fill="#2563eb"/><text x="1354" y="72" font-size="19" font-weight="600">Daily</text><text x="1445" y="72" font-size="19" class="sm" fill="#aab0dd">Weekly</text><text x="1545" y="72" font-size="19" class="sm" fill="#aab0dd">Monthly</text>
 <polygon points="106.2,224.6 1149.5,534.9 1097.0,602.4 53.8,292.1" fill="#7c3aed" opacity=".35" filter="url(#glow)"/>
 <polygon points="106.2,219.6 1149.5,529.9 1097.0,597.4 53.8,287.1" fill="#05061a"/>
 <polygon points="106.2,210.6 1149.5,520.9 1097.0,588.4 53.8,278.1" fill="#0b0c2e"/>
 <g class="wk" style="animation-delay:-4.505s">
-<polygon points="103.8,222.9 121.0,228.0 121.0,225.0 103.8,219.9" fill="#8c09b8"/><polygon points="127.2,220.1 121.0,228.0 121.0,225.0 127.2,217.1" fill="#670787"/><polygon points="110.0,212.0 127.2,217.1 121.0,225.0 103.8,219.9" fill="#bf24f3"/>
 <polygon points="96.8,231.9 114.0,237.0 114.0,234.0 96.8,228.9" fill="#8c09b8"/><polygon points="120.2,229.1 114.0,237.0 114.0,234.0 120.2,226.1" fill="#670787"/><polygon points="103.0,221.0 120.2,226.1 114.0,234.0 96.8,228.9" fill="#bf24f3"/>
 <polygon points="89.8,240.9 107.0,246.0 107.0,243.0 89.8,237.9" fill="#8c09b8"/><polygon points="113.2,238.1 107.0,246.0 107.0,243.0 113.2,235.1" fill="#670787"/><polygon points="96.0,230.0 113.2,235.1 107.0,243.0 89.8,237.9" fill="#bf24f3"/>
 <polygon points="82.8,249.9 100.0,255.0 100.0,252.0 82.8,246.9" fill="#8c09b8"/><polygon points="106.2,247.1 100.0,255.0 100.0,252.0 106.2,244.1" fill="#670787"/><polygon points="89.0,239.0 106.2,244.1 100.0,252.0 82.8,246.9" fill="#bf24f3"/>
@@ -507,6 +506,7 @@ svg{fill:#e8eaff}text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 </g>
 <g class="wk" style="animation-delay:-0.085s">
 <polygon points="1117.8,524.5 1135.0,529.6 1135.0,526.6 1117.8,521.5" fill="#b80909"/><polygon points="1141.2,521.7 1135.0,529.6 1135.0,526.6 1141.2,518.7" fill="#870707"/><polygon points="1124.0,513.6 1141.2,518.7 1135.0,526.6 1117.8,521.5" fill="#f32424"/>
+<polygon points="1110.8,533.5 1128.0,538.6 1128.0,535.6 1110.8,530.5" fill="#b80909"/><polygon points="1134.2,530.7 1128.0,538.6 1128.0,535.6 1134.2,527.7" fill="#870707"/><polygon points="1117.0,522.6 1134.2,527.7 1128.0,535.6 1110.8,530.5" fill="#f32424"/>
 </g>
 <circle class="pl" opacity=".25" cx="1050.1" cy="532.9" r="16" fill="#e879f9" filter="url(#glow)"/>
 <circle class="pl" opacity=".25" cx="1036.1" cy="550.9" r="16" fill="#e879f9" filter="url(#glow)"/>
